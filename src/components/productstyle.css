@@ -1,0 +1,100 @@
+.ProductWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  border-radius: 20px;
+  width: 250px;
+  height: 200px;
+  padding: 10px;
+  background-color: rgb(238, 235, 235);
+  gap: 0.5rem;
+}
+.loader {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.TitleWrapper,
+.PriceWrapper {
+  color: black;
+  overflow: hidden;
+  text-wrap: wrap;
+}
+.ProductImage img {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+  background-blend-mode: multiply;
+}
+.ProductsPanel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cardWrapper {
+  padding: 10px;
+  text-align: left;
+  background-color: cornflowerblue;
+  border-radius: 20px;
+  color: whitesmoke;
+}
+button {
+  all: unset;
+  background-color: aliceblue;
+  border-radius: 10px;
+  size: 25px;
+  margin: 1px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.resetBtn {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 0.8rem;
+  line-height: 15px;
+  outline: none;
+  padding: 0.15rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.resetBtn:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.resetBtn:focus {
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 4px -6px;
+}
