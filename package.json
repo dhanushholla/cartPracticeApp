@@ -17,8 +17,8 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "browserslist": [
     ">0.2%",
